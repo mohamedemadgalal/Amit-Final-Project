@@ -1,0 +1,11 @@
+#ifndef TIMERS_CFG_H_
+#define TIMERS_CFG_H_
+
+#define CRYSTAL_FREQUENCY 16
+#define TIMER_0_PRESCALER 1024
+#define TIMER_0_MODE CTC_MODE
+
+#define FAST_PWM_MODE INVERTED
+#define FAST_PWM_MODE_2 INVERTED
+
+#endif /* TIMERS_CFG_H_ */
